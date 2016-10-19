@@ -38,7 +38,7 @@ else
 fi
 if [ "$1" = "new" ]
 then
-	git checkout -b $2
+    git checkout -b $2
 else
-	echo "To checkout a new branch based on $UPSTREAM/$BRANCH use arguments: new <BRANCHNAME>"
+    echo "To checkout a new branch based on $UPSTREAM/$BRANCH use arguments: new <BRANCHNAME>"
 fi
